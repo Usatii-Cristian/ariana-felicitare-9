@@ -7,7 +7,7 @@
 /** Numele vostre, afișate în Hero. */
 export const couple = {
   partnerA: "Ariana",
-  partnerB: "Numele Tău",
+  partnerB: "Cristi",
 };
 
 /**
@@ -15,7 +15,7 @@ export const couple = {
  * Format: new Date(an, lună (0-11!), zi, oră, minut)
  * Atenție: luna e indexată de la 0 (0 = ianuarie, 9 = octombrie).
  */
-export const relationshipStart = new Date(2025, 9, 4, 20, 0);
+export const relationshipStart = new Date(2025, 9, 8, 20, 0);
 
 /** Eticheta aniversării curente — o schimbi când treceți la următoarea. */
 export const milestoneLabel = "9 luni împreună";
@@ -79,43 +79,55 @@ export type TimelineEvent = {
   description: string;
 };
 
-/** Momentele cheie din relație — adaugă, șterge sau editează oricâte vrei. */
+/**
+ * Câte un mesaj scurt pentru fiecare dintre cele 9 luni — editează liber
+ * titlul și descrierea fiecăreia, sau data din capul liniei.
+ */
 export const timelineEvents: TimelineEvent[] = [
   {
-    date: "4 octombrie 2025",
-    title: "Cum a început",
-    description:
-      "Ziua în care am decis, fără să știm exact ce urmează, să încercăm asta împreună.",
+    date: "8 octombrie 2025",
+    title: "Luna 1 — Începutul",
+    description: "Ziua în care am ales să încercăm asta împreună.",
   },
   {
-    date: "Luna 1",
-    title: "Prima ieșire cu adevărat specială",
-    description:
-      "Prima seară în care am simțit că ne cunoaștem de mult mai mult timp decât în realitate.",
+    date: "Luna 2",
+    title: "Obișnuința frumoasă",
+    description: "Am început să ne simțim firesc unul lângă altul.",
   },
   {
     date: "Luna 3",
     title: "Prima călătorie",
-    description:
-      "Am plecat undeva doar noi doi și am descoperit cât de bine ne înțelegem departe de rutină.",
+    description: "Am plecat doar noi doi și ne-am apropiat și mai mult.",
+  },
+  {
+    date: "Luna 4",
+    title: "Râsul tău",
+    description: "Am învățat să-l recunosc din mii de altele.",
   },
   {
     date: "Luna 5",
     title: "Cunoștință cu cei dragi",
-    description:
-      "Momentul în care lumile noastre s-au întâlnit cu adevărat, iar totul a părut firesc.",
+    description: "Lumile noastre s-au întâlnit și totul a părut firesc.",
+  },
+  {
+    date: "Luna 6",
+    title: "Jumătate de an",
+    description: "Șase luni în care fiecare zi a adăugat ceva bun.",
   },
   {
     date: "Luna 7",
-    title: "Prima ceartă și prima împăcare",
-    description:
-      "Am învățat că ce contează nu e să nu greșim niciodată, ci să alegem mereu să rămânem.",
+    title: "Prima ceartă, prima împăcare",
+    description: "Am învățat să alegem să rămânem, nu să fim perfecți.",
+  },
+  {
+    date: "Luna 8",
+    title: "Tot mai aproape",
+    description: "Am simțit că suntem echipă, în tot ce facem.",
   },
   {
     date: "Luna 9",
     title: "Astăzi",
-    description:
-      "Nouă luni mai târziu, aceeași alegere, de fiecare dată: tu.",
+    description: "Nouă luni mai târziu, aceeași alegere: tu.",
   },
 ];
 
