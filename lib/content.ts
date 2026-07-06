@@ -15,7 +15,7 @@ export const couple = {
  * Format: new Date(an, lună (0-11!), zi, oră, minut)
  * Atenție: luna e indexată de la 0 (0 = ianuarie, 9 = octombrie).
  */
-export const relationshipStart = new Date(2025, 9, 8, 20, 0);
+export const relationshipStart = new Date(2025, 9, 8, 0, 0);
 
 /** Eticheta aniversării curente — o schimbi când treceți la următoarea. */
 export const milestoneLabel = "9 luni împreună";
