@@ -23,8 +23,7 @@ export const milestoneLabel = "9 luni împreună";
 export const hero = {
   eyebrow: `${couple.partnerA} & ${couple.partnerB}`,
   title: milestoneLabel,
-  subtitle:
-    "Nouă luni în care fiecare zi obișnuită a devenit, pe nesimțite, o amintire.",
+  subtitle: "De la un 'bună' timid, la nouă luni în care ai devenit acasă.",
   daysLabel: "zile împreună",
   scrollHint: "descoperă povestea",
 };
@@ -32,7 +31,7 @@ export const hero = {
 export const liveCounterSection = {
   eyebrow: "Chiar acum",
   title: "Timpul nostru continuă",
-  subtitle: "De când a început totul, secundă cu secundă.",
+  subtitle: "Numărătoarea nu se oprește niciodată — nici acum, cât citești asta.",
   units: {
     months: "luni",
     days: "zile",
@@ -45,7 +44,7 @@ export const liveCounterSection = {
 export const gallerySection = {
   eyebrow: "Amintiri",
   title: "Momentele noastre",
-  subtitle: "Câteva clipe pe care am vrut să le păstrăm.",
+  subtitle: "Fragmente mici dintr-o poveste pe care o scriem din mers.",
 };
 
 export type GalleryPhoto = {
@@ -86,48 +85,48 @@ export type TimelineEvent = {
 export const timelineEvents: TimelineEvent[] = [
   {
     date: "8 octombrie 2025",
-    title: "Luna 1 — Începutul",
-    description: "Ziua în care am ales să încercăm asta împreună.",
+    title: "Începutul",
+    description: "Un „da” simplu care ne-a schimbat toată toamna.",
   },
   {
     date: "Luna 2",
-    title: "Obișnuința frumoasă",
-    description: "Am început să ne simțim firesc unul lângă altul.",
+    title: "Ritmul nostru",
+    description: "Am găsit felul nostru de a fi împreună, fără să-l căutăm.",
   },
   {
     date: "Luna 3",
-    title: "Prima călătorie",
-    description: "Am plecat doar noi doi și ne-am apropiat și mai mult.",
+    title: "Departe de casă, aproape unul de altul",
+    description: "Prima călătorie ne-a arătat cât de bine ne potrivim și fără rutină.",
   },
   {
     date: "Luna 4",
-    title: "Râsul tău",
-    description: "Am învățat să-l recunosc din mii de altele.",
+    title: "Micile obiceiuri",
+    description: "Un mesaj de dimineață, un apel seara — lucruri mici, devenite esențiale.",
   },
   {
     date: "Luna 5",
-    title: "Cunoștință cu cei dragi",
-    description: "Lumile noastre s-au întâlnit și totul a părut firesc.",
+    title: "Lumile noastre, una singură",
+    description: "Ne-am arătat celor dragi, și totul a părut de la sine înțeles.",
   },
   {
     date: "Luna 6",
     title: "Jumătate de an",
-    description: "Șase luni în care fiecare zi a adăugat ceva bun.",
+    description: "Am realizat că nu mai număr zilele de emoție, ci din bucurie.",
   },
   {
     date: "Luna 7",
-    title: "Prima ceartă, prima împăcare",
-    description: "Am învățat să alegem să rămânem, nu să fim perfecți.",
+    title: "Testați și rămași",
+    description: "Am trecut prin zile mai grele și am ieșit tot noi doi, mai uniți.",
   },
   {
     date: "Luna 8",
-    title: "Tot mai aproape",
-    description: "Am simțit că suntem echipă, în tot ce facem.",
+    title: "Echipă",
+    description: "Am învățat să sărbătorim victoriile mici unul altuia, ca pe ale noastre.",
   },
   {
     date: "Luna 9",
     title: "Astăzi",
-    description: "Nouă luni mai târziu, aceeași alegere: tu.",
+    description: "Nouă luni mai târziu, tot tu ești răspunsul la orice întrebare.",
   },
 ];
 
@@ -135,16 +134,16 @@ export const letterSection = {
   eyebrow: "O scrisoare",
   title: "Pentru tine",
   paragraphs: [
-    "Sunt momente pe care le trăiești și momente pe care le simți cu adevărat abia mai târziu, când te oprești și te uiți în urmă. Ultimele nouă luni au fost, pentru mine, din a doua categorie.",
-    "Nu știu exact ce anume s-a schimbat de la o zi obișnuită la una în care zâmbetul tău a devenit motivul pentru care aștept cu drag ziua următoare. Dar știu că s-a întâmplat, încet, fără zgomot, așa cum se întâmplă lucrurile adevărate.",
-    "Îți mulțumesc pentru răbdare, pentru râs, pentru liniștea pe care mi-o dai fără să-ți dai seama și pentru toate zilele astea pe care le-am adunat împreună, una câte una.",
-    "Asta e doar începutul. Aștept cu drag tot ce urmează.",
+    "Nu știu de unde să încep, așa că încep simplu: mă bucur în fiecare zi că te-am cunoscut.",
+    "Îmi amintesc emoția de la început, felul în care căutam mereu cuvintele potrivite lângă tine. Nouă luni mai târziu, cuvintele au devenit ușoare, pentru că totul cu tine e firesc.",
+    "Îți mulțumesc pentru fiecare zi obișnuită pe care ai transformat-o în ceva de care îmi aduc aminte cu zâmbetul pe buze, pentru răbdare, pentru cum mă asculți și pentru cum ești, pur și simplu, tu.",
+    "Asta nu e finalul unui capitol, e doar o pauză scurtă înainte de tot ce urmează. Și abia aștept.",
   ],
   signature: `Al tău, ${couple.partnerB}`,
 };
 
 export const footerSection = {
-  message: "Și povestea noastră abia acum începe cu adevărat.",
+  message: "Nouă luni au trecut. Multe altele urmează.",
   replayLabel: "Replay",
   credit: `${couple.partnerA} & ${couple.partnerB}`,
 };
