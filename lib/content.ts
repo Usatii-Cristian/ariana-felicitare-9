@@ -64,8 +64,8 @@ export const galleryPhotos: GalleryPhoto[] = [
   { src: "/photos/2.svg", alt: "O zi obișnuită, perfectă" },
   { src: "/photos/3.svg", alt: "O călătorie de neuitat" },
   { src: "/photos/4.svg", alt: "Râsul tău preferat" },
-  { src: "/photos/5.svg", alt: "O seară liniștită împreună" },
-  { src: "/photos/6.svg", alt: "Noi, așa cum suntem" },
+  { src: "/photos/5.jpg", alt: "Regi de bal, pentru o seară" },
+  { src: "/photos/6.jpg", alt: "Noi, așa cum suntem" },
 ];
 
 export const timelineSection = {
