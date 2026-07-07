@@ -52,17 +52,12 @@ export type GalleryPhoto = {
   alt: string;
 };
 
-/**
- * Pozele din galerie. Sunt deocamdată niște placeholder-uri elegante
- * (public/photos/1.svg ... 6.svg). Înlocuiește fișierele cu propriile poze
- * (jpg/png/webp) și actualizează extensia din calea `src` de mai jos ca să
- * corespundă cu fișierul nou (ex: "/photos/1.jpg").
- */
+/** Pozele din galerie — adaugă, șterge sau rearanjează oricâte vrei. */
 export const galleryPhotos: GalleryPhoto[] = [
-  { src: "/photos/1.svg", alt: "Prima noastră poză împreună" },
-  { src: "/photos/2.svg", alt: "O zi obișnuită, perfectă" },
-  { src: "/photos/3.svg", alt: "O călătorie de neuitat" },
-  { src: "/photos/4.svg", alt: "Râsul tău preferat" },
+  { src: "/photos/1.jpg", alt: "O poză din holul liceului, înainte de o zi importantă" },
+  { src: "/photos/2.jpg", alt: "O plimbare de primăvară, sub un copac înflorit" },
+  { src: "/photos/3.jpg", alt: "O după-amiază de iarnă, doar noi doi" },
+  { src: "/photos/4.jpg", alt: "Un moment liniștit, aproape unul de celălalt" },
   { src: "/photos/5.jpg", alt: "Regi de bal, pentru o seară" },
   { src: "/photos/6.jpg", alt: "Noi, așa cum suntem" },
 ];
